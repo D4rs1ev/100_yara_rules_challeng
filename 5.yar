@@ -14,6 +14,6 @@ rule search_SppExtComObj_Exe
 		hash.sha256(0, filesize) == "61b48a4b1f561cb6a52e797f917b7a98b63e97d571d560ba8bb5a539e4f227fb" or 
 		hash.sha256(0, filesize) == "cebdc66a7b13242e763fe8c5f6c0dd646346ed01280b5fd4afb13d79095eaaf6") and
 		uint16(0) == 0x5A4D and 
-		(filesize >=180000 and
-		filesize <=170000)
+		(filesize < 180000 and
+		filesize > 170000)
 }
