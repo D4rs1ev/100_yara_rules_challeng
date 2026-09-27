@@ -1,4 +1,4 @@
-rule search_SppExtComObj_Exe
+rule search_SppExtComObj_Exe {
 	meta:
 		data = "09-05-2026"
 		author = "D4rs1ev"
