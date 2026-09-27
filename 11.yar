@@ -1,8 +1,8 @@
 rule "lazarus" {
 	meta: 
-		Date: "09-10-2026"
-		author: "D4rs1ev"
-		Description: "https://ptsecurity.com/research/pt-esc-threat-intelligence/lazarus-recruitment/"
+		Date = "09-10-2026"
+		author= "D4rs1ev"
+		Description = "https://ptsecurity.com/research/pt-esc-threat-intelligence/lazarus-recruitment/"
 	condition:
 		uint16(0) == 0x5A4D 
 		and pe.imports("ADVAPI32.dll")
