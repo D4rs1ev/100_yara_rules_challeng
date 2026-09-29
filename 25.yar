@@ -3,7 +3,6 @@ rule "stelear" {
         Date = "09-25-2026"
         Author = "d@rsiev"
     strings:
-   strings:
         $opera0 = "Opera Software\\Opera GX Stable" ascii wide
         $opera1 = "Opera GX Stable" ascii wide
         $chrome0 = "Google\\Chrome\\User Data" ascii wide
